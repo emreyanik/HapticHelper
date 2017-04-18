@@ -13,10 +13,11 @@
 		4B6AA9F01EA6033F00E83CE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B6AA9EE1EA6033F00E83CE0 /* Main.storyboard */; };
 		4B6AA9F21EA6033F00E83CE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B6AA9F11EA6033F00E83CE0 /* Assets.xcassets */; };
 		4B6AA9F51EA6033F00E83CE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B6AA9F31EA6033F00E83CE0 /* LaunchScreen.storyboard */; };
+		4B6AA9FE1EA603A800E83CE0 /* HapticHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B6AA9FD1EA603A800E83CE0 /* HapticHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4B6AA9E21EA6033F00E83CE0 /* HapticExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HapticExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6AA9E21EA6033F00E83CE0 /* HapticHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HapticHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B6AA9E61EA6033F00E83CE0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4B6AA9E81EA6033F00E83CE0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4B6AA9E91EA6033F00E83CE0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +27,8 @@
 		4B6AA9F11EA6033F00E83CE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4B6AA9F41EA6033F00E83CE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4B6AA9F61EA6033F00E83CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B6AA9FC1EA603A800E83CE0 /* HapticHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HapticHelper.h; sourceTree = "<group>"; };
+		4B6AA9FD1EA603A800E83CE0 /* HapticHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HapticHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +53,7 @@
 		4B6AA9E31EA6033F00E83CE0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4B6AA9E21EA6033F00E83CE0 /* HapticExample.app */,
+				4B6AA9E21EA6033F00E83CE0 /* HapticHelper.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -58,6 +61,7 @@
 		4B6AA9E41EA6033F00E83CE0 /* HapticExample */ = {
 			isa = PBXGroup;
 			children = (
+				4B6AA9FF1EA6184500E83CE0 /* HapticHelper */,
 				4B6AA9E81EA6033F00E83CE0 /* AppDelegate.h */,
 				4B6AA9E91EA6033F00E83CE0 /* AppDelegate.m */,
 				4B6AA9EB1EA6033F00E83CE0 /* ViewController.h */,
@@ -68,7 +72,8 @@
 				4B6AA9F61EA6033F00E83CE0 /* Info.plist */,
 				4B6AA9E51EA6033F00E83CE0 /* Supporting Files */,
 			);
-			path = HapticExample;
+			name = HapticExample;
+			path = HapticHelper;
 			sourceTree = "<group>";
 		};
 		4B6AA9E51EA6033F00E83CE0 /* Supporting Files */ = {
@@ -79,12 +84,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4B6AA9FF1EA6184500E83CE0 /* HapticHelper */ = {
+			isa = PBXGroup;
+			children = (
+				4B6AA9FC1EA603A800E83CE0 /* HapticHelper.h */,
+				4B6AA9FD1EA603A800E83CE0 /* HapticHelper.m */,
+			);
+			path = HapticHelper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4B6AA9E11EA6033F00E83CE0 /* HapticExample */ = {
+		4B6AA9E11EA6033F00E83CE0 /* HapticHelper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B6AA9F91EA6033F00E83CE0 /* Build configuration list for PBXNativeTarget "HapticExample" */;
+			buildConfigurationList = 4B6AA9F91EA6033F00E83CE0 /* Build configuration list for PBXNativeTarget "HapticHelper" */;
 			buildPhases = (
 				4B6AA9DE1EA6033F00E83CE0 /* Sources */,
 				4B6AA9DF1EA6033F00E83CE0 /* Frameworks */,
@@ -94,9 +108,9 @@
 			);
 			dependencies = (
 			);
-			name = HapticExample;
+			name = HapticHelper;
 			productName = HapticExample;
-			productReference = 4B6AA9E21EA6033F00E83CE0 /* HapticExample.app */;
+			productReference = 4B6AA9E21EA6033F00E83CE0 /* HapticHelper.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -115,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 4B6AA9DD1EA6033F00E83CE0 /* Build configuration list for PBXProject "HapticExample" */;
+			buildConfigurationList = 4B6AA9DD1EA6033F00E83CE0 /* Build configuration list for PBXProject "HapticHelper" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -128,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4B6AA9E11EA6033F00E83CE0 /* HapticExample */,
+				4B6AA9E11EA6033F00E83CE0 /* HapticHelper */,
 			);
 		};
 /* End PBXProject section */
@@ -153,6 +167,7 @@
 			files = (
 				4B6AA9ED1EA6033F00E83CE0 /* ViewController.m in Sources */,
 				4B6AA9EA1EA6033F00E83CE0 /* AppDelegate.m in Sources */,
+				4B6AA9FE1EA603A800E83CE0 /* HapticHelper.m in Sources */,
 				4B6AA9E71EA6033F00E83CE0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,9 +289,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 58X4NHW67V;
-				INFOPLIST_FILE = HapticExample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HapticHelper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.emre.haptic.HapticExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emreyanik.haptichelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -286,9 +301,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 58X4NHW67V;
-				INFOPLIST_FILE = HapticExample/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/HapticHelper/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.emre.haptic.HapticExample;
+				PRODUCT_BUNDLE_IDENTIFIER = com.emreyanik.haptichelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -296,7 +311,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4B6AA9DD1EA6033F00E83CE0 /* Build configuration list for PBXProject "HapticExample" */ = {
+		4B6AA9DD1EA6033F00E83CE0 /* Build configuration list for PBXProject "HapticHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B6AA9F71EA6033F00E83CE0 /* Debug */,
@@ -305,7 +320,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B6AA9F91EA6033F00E83CE0 /* Build configuration list for PBXNativeTarget "HapticExample" */ = {
+		4B6AA9F91EA6033F00E83CE0 /* Build configuration list for PBXNativeTarget "HapticHelper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4B6AA9FA1EA6033F00E83CE0 /* Debug */,
