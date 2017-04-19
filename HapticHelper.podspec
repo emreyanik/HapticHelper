@@ -17,5 +17,6 @@ Pod::Spec.new do |s|
   s.source       		= { :git => "https://github.com/emreyanik/HapticHelper.git", :tag => s.version.to_s }
   s.source_files  		= "HapticHelper/*.{h,m}"
   s.public_header_files = "HapticHelper/*.h"
+  s.ios.deployment_target = "8.0"
 
 end
