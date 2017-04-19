@@ -45,7 +45,7 @@
 		4B6AA9D91EA6033F00E83CE0 = {
 			isa = PBXGroup;
 			children = (
-				4B6AA9E41EA6033F00E83CE0 /* HapticExample */,
+				4B6AA9E41EA6033F00E83CE0 /* Example */,
 				4B6AA9E31EA6033F00E83CE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,7 +58,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4B6AA9E41EA6033F00E83CE0 /* HapticExample */ = {
+		4B6AA9E41EA6033F00E83CE0 /* Example */ = {
 			isa = PBXGroup;
 			children = (
 				4B6AA9FF1EA6184500E83CE0 /* HapticHelper */,
@@ -72,8 +72,7 @@
 				4B6AA9F61EA6033F00E83CE0 /* Info.plist */,
 				4B6AA9E51EA6033F00E83CE0 /* Supporting Files */,
 			);
-			name = HapticExample;
-			path = HapticHelper;
+			path = Example;
 			sourceTree = "<group>";
 		};
 		4B6AA9E51EA6033F00E83CE0 /* Supporting Files */ = {
@@ -90,7 +89,8 @@
 				4B6AA9FC1EA603A800E83CE0 /* HapticHelper.h */,
 				4B6AA9FD1EA603A800E83CE0 /* HapticHelper.m */,
 			);
-			path = HapticHelper;
+			name = HapticHelper;
+			path = ../HapticHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,7 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 58X4NHW67V;
-				INFOPLIST_FILE = "$(SRCROOT)/HapticHelper/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emreyanik.haptichelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -301,7 +301,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 58X4NHW67V;
-				INFOPLIST_FILE = "$(SRCROOT)/HapticHelper/Info.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/Example/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.emreyanik.haptichelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -327,6 +327,7 @@
 				4B6AA9FB1EA6033F00E83CE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
