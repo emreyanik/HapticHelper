@@ -1,5 +1,11 @@
 # HapticHelper
 
+[![Version](https://img.shields.io/cocoapods/v/HapticHelper.svg)](http://cocoapods.org/pods/HapticHelper)
+[![License](https://img.shields.io/cocoapods/l/HapticHelper.svg?)](http://cocoapods.org/pods/HapticHelper)
+[![Platform](https://img.shields.io/cocoapods/p/HapticHelper.svg?)](http://cocoapods.org/pods/HapticHelper)
+
+
+
 ## Installation
 * Install with [Cocoapods](http://cocoapods.org)
 
