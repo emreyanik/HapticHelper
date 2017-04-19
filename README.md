@@ -1,6 +1,12 @@
 # HapticHelper
 
+## Installation
+* Install with [Cocoapods](http://cocoapods.org)
 
+  ```ruby
+  pod 'HapticHelper', '~> 1.0'
+  ```
+  
 ## Requirements
 
 - iOS 10.0+
@@ -11,3 +17,9 @@
 - A device with a supported Taptic Engine (iPhone 7 and iPhone 7 Plus).
 - App is running in the foreground.
 - System Haptics setting is enabled.
+
+## Author
+**HapticHelper** is written by [Emre YANIK (emreyanik)](https://github.com/emreyanik).
+
+## Licenses
+**HapticHelper** is under MIT license. See the [LICENSE](LICENSE) for more info.
