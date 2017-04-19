@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         		= "HapticHelper"
-  s.version     	 	= "1.0.0"
+  s.version     	 	= "1.0.1"
   s.summary      		= "UIFeedbackGenerator Helper"
   s.homepage     		= "https://github.com/emreyanik/HapticHelper"
   s.license      		= { :type => "MIT", :file => "LICENSE" }
@@ -17,6 +17,5 @@ Pod::Spec.new do |s|
   s.source       		= { :git => "https://github.com/emreyanik/HapticHelper.git", :tag => s.version.to_s }
   s.source_files  		= "HapticHelper/*.{h,m}"
   s.public_header_files = "HapticHelper/*.h"
-  s.platform     		= :ios, "10.0"
 
 end
